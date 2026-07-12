@@ -1,6 +1,4 @@
 // Edit this file to customize your portfolio content.
-// You generally should not need to touch anything in /components or /app
-// unless you want to change the design or layout.
 
 export interface ContactInfo {
   email?: string;
@@ -21,21 +19,39 @@ export interface Profile {
 }
 
 const profile: Profile = {
-  name: "Jane Apprentice",
-  photo: "/profile-placeholder.svg",
-  role: "Full-Stack Engineering Track",
+  name: "Abhiram Adarsh Bhat",
+  photo: "/Abhiram.png",
+  role: "Embedded & IoT Intern | Information Science & Engineering Student",
   apprenticeId: "ZPN-NAG-001",
+
   shortBio:
-    "I'm a FORGE apprentice building real-world software skills through hands-on projects. " +
-    "This is my portfolio — replace this bio with a few sentences about who you are, " +
-    "what you're learning, and what you're excited to build next.",
+    "Passionate about building innovative solutions using Embedded Systems, IoT, and Full-Stack technologies. " +
+    "I enjoy transforming ideas into real-world applications through software and hardware integration. " +
+    "Currently, I'm expanding my expertise in web development, cloud computing, and intelligent IoT systems while continuously learning modern technologies and best development practices.",
+
   forgeCohort: "April 2026",
-  skills: ["TypeScript", "React", "Next.js", "Node.js", "Git"],
+
+  skills: [
+    "C",
+    "Python",
+    "Java",
+    "SQL",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React",
+    "Node.js",
+    "Git",
+    "AWS",
+    "Embedded Systems",
+    "IoT"
+  ],
+
   contact: {
-    email: "jane@example.com",
-    phone: "",
-    linkedin: "https://linkedin.com/in/example",
-    github: "https://github.com/example",
+    email: "1nc23is001abhiram@gmail.com",
+    phone: "+91 8277248404",
+    linkedin: "https://www.linkedin.com/in/abhiram-adarsh-bhat-544489300",
+    github: "https://github.com/Abhiram-Bhat-18",
   },
 };
 

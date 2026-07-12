@@ -1,21 +1,87 @@
-import profile from "@/data/profile";
-
 export default function Skills() {
-  if (profile.skills.length === 0) return null;
+  const skillCategories = [
+    {
+      title: "💻 Programming",
+      skills: ["C", "C++", "Java", "Python", "SQL"],
+    },
+    {
+      title: "🌐 Web Development",
+      skills: [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Node.js",
+      ],
+    },
+    {
+      title: "☁️ Cloud Computing",
+      skills: [
+        "AWS",
+        "Amazon EC2",
+      ],
+    },
+    {
+      title: "🤖 IoT & Embedded Systems",
+      skills: [
+        "ESP32",
+        "IoT",
+        "Embedded Systems",
+        "Sensors",
+        "Edge AI",
+        "LoRa",
+      ],
+    },
+    {
+      title: "🛠 Tools & Platforms",
+      skills: [
+        "Git",
+        "GitHub",
+        "VS Code",
+        "Arduino IDE",
+      ],
+    },
+    {
+      title: "🤝 Soft Skills",
+      skills: [
+        "Problem Solving",
+        "Teamwork",
+        "Leadership",
+        "Communication",
+        "Critical Thinking",
+      ],
+    },
+  ];
 
   return (
-    <section className="mx-auto max-w-2xl px-4 py-10">
-      <h2 className="text-xl font-semibold">Skills</h2>
-      <ul className="mt-3 flex flex-wrap gap-2">
-        {profile.skills.map((skill) => (
-          <li
-            key={skill}
-            className="rounded-full border border-black/10 px-3 py-1 text-sm text-neutral-700"
+    <section className="mx-auto max-w-7xl px-6 py-16">
+      <h2 className="mb-12 text-center text-4xl font-bold">
+        💻 Technical Skills
+      </h2>
+
+      <div className="grid gap-8 md:grid-cols-2">
+        {skillCategories.map((category) => (
+          <div
+            key={category.title}
+            className="rounded-3xl border border-gray-200 bg-white p-8 shadow-lg transition duration-300 hover:-translate-y-2 hover:shadow-2xl"
           >
-            {skill}
-          </li>
+            <h3 className="mb-6 text-2xl font-bold text-blue-700">
+              {category.title}
+            </h3>
+
+            <div className="flex flex-wrap gap-3">
+              {category.skills.map((skill) => (
+                <span
+                  key={skill}
+                  className="rounded-full bg-blue-100 px-4 py-2 text-sm font-semibold text-blue-700"
+                >
+                  {skill}
+                </span>
+              ))}
+            </div>
+          </div>
         ))}
-      </ul>
+      </div>
     </section>
   );
 }
