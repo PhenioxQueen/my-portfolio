@@ -8,7 +8,7 @@ export default function Contact() {
       <div className="rounded-3xl bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 p-10 shadow-2xl border border-slate-700">
 
       <h2 className="text-4xl font-bold text-center text-white">
-  Let's Connect & Collaborate
+  Let us Connect & Collaborate
 </h2>
 
        <p className="mx-auto mt-4 mb-10 max-w-3xl text-center text-gray-400 leading-7">
