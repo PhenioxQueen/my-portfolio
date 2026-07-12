@@ -12,9 +12,10 @@ export default function Contact() {
 </h2>
 
        <p className="mx-auto mt-4 mb-10 max-w-3xl text-center text-gray-400 leading-7">
-        I'm passionate about Software Development, Cloud Computing, IoT, and AI-driven
-        solutions. Whether you're a recruiter, mentor, or fellow developer, I'd love
-        to connect, collaborate, and explore exciting opportunities together.
+       I am passionate about Software Development, Cloud Computing,
+IoT, and AI-driven solutions. Whether you are a recruiter,
+mentor, or fellow developer, I would love to connect,
+collaborate, and explore exciting opportunities together.
        </p>
 
         <div className="grid gap-6 md:grid-cols-2">
