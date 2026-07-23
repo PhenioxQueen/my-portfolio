@@ -1,37 +1,29 @@
 export default function Achievements() {
   const achievements = [
     {
-      icon: "🥇",
-      title: "1st Place - Ideathon",
+      icon: "🏆",
+      title: "AWS Hackathon Innovation Badge",
       description:
-        "Secured 1st place by presenting an innovative agriculture-based solution that demonstrated creativity, technical knowledge, and problem-solving skills.",
+        "Earned the AWS Hackathon Innovation Badge for developing a creative, cloud-based solution as part of the AWS Academy program, demonstrating strong problem-solving and cloud engineering skills.",
     },
     {
-      icon: "🏅",
-      title: "4th Place - Hackathon",
+      icon: "🎓",
+      title: "Elite Silver Medalist - HCI (NPTEL)",
       description:
-        "Achieved 4th place in the Hackathon conducted at PES College by collaborating with a team to develop a technology-driven solution within a limited time.",
+        "Achieved Elite Silver Medal certification in Human-Computer Interaction through NPTEL, reflecting strong academic performance and deep understanding of user-centered design principles.",
     },
     {
       icon: "♟️",
-      title: "State-Level Chess Player",
+      title: "District-Level Chess Tournament - 2nd Prize",
       description:
-        "Represented in multiple state-level chess tournaments, strengthening strategic thinking, decision-making, and analytical skills.",
-    },
-    {
-      icon: "🏆",
-      title: "7th Rank - State Chess Tournament",
-      description:
-        "Secured 7th rank in the State-Level Chess Tournament (2017–2018), showcasing consistency and competitive excellence.",
+        "Secured 2nd Prize in a District-Level Chess Tournament, showcasing strong strategic thinking, focus, and competitive spirit.",
     },
   ];
-
   return (
     <section className="mx-auto max-w-7xl px-6 py-16">
       <h2 className="mb-12 text-center text-4xl font-bold">
         🏆 Achievements
       </h2>
-
       <div className="grid gap-8 md:grid-cols-2">
         {achievements.map((item) => (
           <div
@@ -39,11 +31,9 @@ export default function Achievements() {
             className="rounded-3xl border border-gray-200 bg-white p-8 shadow-lg transition duration-300 hover:-translate-y-2 hover:shadow-2xl"
           >
             <div className="text-5xl">{item.icon}</div>
-
             <h3 className="mt-4 text-2xl font-bold text-blue-700">
               {item.title}
             </h3>
-
             <p className="mt-4 leading-7 text-gray-700">
               {item.description}
             </p>
