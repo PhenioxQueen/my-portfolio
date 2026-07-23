@@ -3,7 +3,7 @@ export default function Projects() {
     {
       title: "AI-Based Student Skill Gap Analyzer and Guider",
       subtitle: "ML-Powered Career Guidance Platform",
-      image: "/projects/ai based skill gap analyser.png",
+      image: "/projects/aiskillgapanalyser.png",
       description:
         "Developed an intelligent web application to evaluate student academic metrics, pinpoint target skill deficiencies, and suggest personalized career pathways. Engineered custom clustering algorithms using Scikit-Learn to categorize student performance profiles, driving automated, actionable learning recommendations. Built a responsive front-end dashboard with React, communicating seamlessly via a Flask-backed RESTful API.",
       tech: [
@@ -17,7 +17,7 @@ export default function Projects() {
     {
       title: "Crime Prediction and Pre-Action Mechanism",
       subtitle: "Predictive Analytics for Public Safety",
-      image: "/projects/cyber crime.png",
+      image: "/projects/cybercrime.png",
       description:
         "Designed a predictive analytics pipeline to analyze historical municipal records and model high-risk regional crime hotspots. Implemented deep learning and classification frameworks to project pattern shifts, triggering automated warning mechanisms for preemptive community actions. Optimized data preprocessing pipelines and structured relational databases using SQL to achieve sub-second query performance during high-throughput analysis.",
       tech: [
@@ -42,7 +42,7 @@ export default function Projects() {
     {
       title: "IoT-Based Smart Food Dispenser System for Animals",
       subtitle: "Automated Animal Feeding & Monitoring System",
-      image: "/projects/animal food monitor.png",
+      image: "/projects/animalfoodmonitor.png",
       description:
         "Architected an automated IoT hardware-software prototype capable of tracking real-time weight schedules and dispensing precise food components. Integrated lightweight webhook alerts to stream real-time dispensing status logs directly to a cloud-hosted web tracking interface.",
       tech: [
