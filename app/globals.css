@@ -16,8 +16,13 @@
 
 body {
   color: var(--foreground);
-  background: var(--background);
+  background-image: url('https://i.pinimg.com/736x/50/68/39/50683933e38b51493f7be95e4c486e33.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh;
 }
 
 @layer utilities {
