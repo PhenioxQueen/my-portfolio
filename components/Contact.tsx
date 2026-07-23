@@ -13,8 +13,8 @@ export default function Contact() {
 
        <p className="mx-auto mt-4 mb-10 max-w-3xl text-center text-gray-400 leading-7">
        I am passionate about Software Development, Cloud Computing,
-IoT, and AI-driven solutions. Whether you are a recruiter,
-mentor, or fellow developer, I would love to connect,
+and AI-driven solutions. Whether you are a recruiter,
+mentor, or fellow developer, I would like to connect,
 collaborate, and explore exciting opportunities together.
        </p>
 
