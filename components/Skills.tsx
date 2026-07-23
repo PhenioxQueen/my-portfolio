@@ -2,7 +2,7 @@ export default function Skills() {
   const skillCategories = [
     {
       title: "💻 Programming",
-      skills: ["C", "C++", "Java", "Python", "SQL"],
+      skills: ["C", "Java", "Python"],
     },
     {
       title: "🌐 Web Development",
@@ -18,25 +18,17 @@ export default function Skills() {
       title: "☁️ Cloud Computing",
       skills: [
         "AWS",
-        "Amazon EC2",
+        "google cloud",
       ],
     },
-    {
-      title: "🤖 IoT & Embedded Systems",
-      skills: [
-        "ESP32",
-        "IoT",
-        "Embedded Systems",
-        "Sensors",
-        "Edge AI",
-        "LoRa",
-      ],
-    },
+   
     {
       title: "🛠 Tools & Platforms",
       skills: [
         "Git",
         "GitHub",
+        "Kiro",
+        "Django",
         "VS Code",
         "Arduino IDE",
       ],
