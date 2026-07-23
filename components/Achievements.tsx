@@ -4,8 +4,9 @@ export default function Achievements() {
       icon: "🏆",
       title: "Project Exhibition",
       description:
-        "Earned the 2nd prize for developing a creative,innovative project in college level competation at NCET, demonstrating strong problem-solving skills.",
+        "Earned the 2nd prize for developing a creative, innovative project in a college-level competition at NCET, demonstrating strong problem-solving skills.",
     },
+    {
       icon: "🏆",
       title: "AWS Hackathon Innovation Badge",
       description:
