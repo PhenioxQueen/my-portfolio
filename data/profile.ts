@@ -1,12 +1,9 @@
-// Edit this file to customize your portfolio content.
-
 export interface ContactInfo {
   email?: string;
   phone?: string;
   linkedin?: string;
   github?: string;
 }
-
 export interface Profile {
   name: string;
   photo: string;
@@ -17,42 +14,34 @@ export interface Profile {
   skills: string[];
   contact: ContactInfo;
 }
-
 const profile: Profile = {
-  name: "Abhiram Adarsh Bhat",
-  photo: "/Abhiram.png",
-  role: "Embedded & IoT Intern | Information Science & Engineering Student",
-  apprenticeId: "ZPN-NAG-001",
-
+  name: "Haripriya N R",
+  photo: "/Haripriya.png",
+  role: "AI/ML & Cloud Enthusiast | Information Science & Engineering Student",
+  apprenticeId: "ZPN-NAG-003",
   shortBio:
-    "Passionate about building innovative solutions using Embedded Systems, IoT, and Full-Stack technologies. " +
-    "I enjoy transforming ideas into real-world applications through software and hardware integration. " +
-    "Currently, I'm expanding my expertise in web development, cloud computing, and intelligent IoT systems while continuously learning modern technologies and best development practices.",
-
+    "Passionate about building intelligent solutions using Machine Learning, Generative AI, and Cloud technologies. " +
+    "I enjoy transforming data and ideas into real-world applications through full-stack development and smart system design. " +
+    "Currently, I'm expanding my expertise in cloud platforms, LLMs, and scalable web applications while continuously learning modern development practices.",
   forgeCohort: "April 2026",
-
   skills: [
     "C",
-    "Python",
     "Java",
-    "SQL",
-    "HTML",
-    "CSS",
     "JavaScript",
+    "Python",
+    "SQL",
     "React",
-    "Node.js",
-    "Git",
+    "Flask",
+    "Django",
     "AWS",
-    "Embedded Systems",
-    "IoT"
+    "Google Cloud Platform",
+    "MySQL"
   ],
-
   contact: {
-    email: "1nc23is001abhiram@gmail.com",
-    phone: "+91 8277248404",
-    linkedin: "https://www.linkedin.com/in/abhiram-adarsh-bhat-544489300",
-    github: "https://github.com/Abhiram-Bhat-18",
+    email: "haripriyarajshekar@gmail.com",
+    phone: "+91 6360183971",
+    linkedin: "https://www.linkedin.com/in/haripriya-nr-4640382b7",
+    github: "https://github.com/PhenioxQueen",
   },
 };
-
 export default profile;
