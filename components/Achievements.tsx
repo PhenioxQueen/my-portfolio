@@ -2,6 +2,11 @@ export default function Achievements() {
   const achievements = [
     {
       icon: "🏆",
+      title: "Project Exhibition",
+      description:
+        "Earned the 2nd prize for developing a creative,innovative project in college level competation at NCET, demonstrating strong problem-solving skills.",
+    },
+      icon: "🏆",
       title: "AWS Hackathon Innovation Badge",
       description:
         "Earned the AWS Hackathon Innovation Badge for developing a creative, cloud-based solution as part of the AWS Academy program, demonstrating strong problem-solving and cloud engineering skills.",
